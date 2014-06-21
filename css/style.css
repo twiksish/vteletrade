@@ -6,7 +6,7 @@
 /*@import url(_link.css);*/
 /*@import url(_time.css);*/
 /*@import url(_icon.css);*/
-/*@import url(_button.css);*/
+@import url(_button.css);
 /*@import url(_field.css);*/
 /*@import url(_title.css);*/
 /*@import url(_table.css);*/
@@ -16,6 +16,7 @@
 /*@import url(_ancients.css);*/
 @import url(_logo.css);
 @import url(_features.css);
+@import url(_register.css);
 /*@import url(_nav.css);*/
 /*@import url(_copyright.css);*/
 /*@import url(_breadcrumbs.css);*/
