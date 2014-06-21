@@ -11,8 +11,9 @@
             height: 87px;
         }
 
-    .page__nav {
-        margin: 20px 0 0;
+    .page__features {
+        background: #fff;
+        margin: 32px 0 0 20px;
     }
 
     .page__body {
