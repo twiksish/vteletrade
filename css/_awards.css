@@ -11,17 +11,6 @@
         text-align: center;
     }
 
-    .awards__list {
+    .awards__carousel {
         margin-top: 33px;
     }
-
-        .awards__list__item {
-            display: inline-block;
-            vertical-align: top;
-            width: 148px;
-            margin-left: 10px;
-        }
-
-        .awards__list__item:first-child {
-            margin-left: 0;
-        }

@@ -1,0 +1,41 @@
+.jcarousel-wrapper {
+    position: relative;
+}
+
+.jcarousel {
+    overflow: hidden;
+}
+
+    .jcarousel__list {
+        width: 10000px;
+        position: relative;
+    }
+
+    .jcarousel__list__item {
+        display: inline-block;
+        vertical-align: top;
+        width: 150px;
+        margin-right: 10px;
+    }
+
+    .jcarousel__list__item:first-child {
+        margin-right: 0;
+    }
+
+    .jcarousel__arrow-left {
+        background-image: url(../images/arrow_left.png);
+        width: 21px;
+        height: 42px;
+        position: absolute;
+        top: 63px;
+        left: -13px;
+    }
+
+    .jcarousel__arrow-right {
+        background-image: url(../images/arrow_right.png);
+        width: 21px;
+        height: 42px;
+        position: absolute;
+        top: 63px;
+        right: -13px;
+    }

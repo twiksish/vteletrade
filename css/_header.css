@@ -23,9 +23,6 @@
         }
 
         .header__main__right {
-            width: 473px;
-            height: 291px;
-            background: purple;
             display: inline-block;
             vertical-align: top;
             margin-left: 38px;
