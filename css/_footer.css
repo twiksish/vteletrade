@@ -1,9 +1,37 @@
 .footer {
-    height: 100px;
     position: relative;
+    padding: 29px 0;
 }
     .footer__copyright {
+        font-size: 13px;
+        line-height: 15px;
+        color: #888;
+        margin-left: 1px;
+    }
+
+    .footer__visa {
+        background: url(../images/visa.png);
+        width: 52px;
+        height: 24px;
         position: absolute;
-        left: 0;
-        top: 10px;
+        top: 21px;
+        right: 177px;
+    }
+
+    .footer__mastercard {
+        background: url(../images/mastercard.png);
+        width: 59px;
+        height: 24px;
+        position: absolute;
+        top: 20px;
+        right: 105px;
+    }
+
+    .footer__verisign {
+        background: url(../images/verisign.png);
+        width: 92px;
+        height: 52px;
+        position: absolute;
+        top: 5px;
+        right: 2px;
     }
