@@ -1,9 +1,32 @@
 .header {
-    height: 200px;
-    position: relative;
+
 }
     .header__logo {
-        position: absolute;
-        left: 10px;
-        top: 10px;
+        text-align: center;
+        padding-top: 19px;
     }
+
+    .header__main {
+        margin-top: 70px;
+    }
+
+        .header__main__left {
+            display: inline-block;
+            vertical-align: top;
+            width: 436px;
+            font-family: 'TeXGyreAdventor Bold' sans-serif;
+            font-size: 40px;
+            line-height: 51px;
+            color: #fff;
+            margin-top: 46px;
+            margin-left: 9px;
+        }
+
+        .header__main__right {
+            width: 473px;
+            height: 291px;
+            background: purple;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 38px;
+        }

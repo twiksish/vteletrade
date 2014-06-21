@@ -2,8 +2,14 @@
 
 }
     .page__header {
-
+        background: #263b8c url(../images/header_background.jpg) no-repeat center top;
+        height: 478px;
     }
+
+        .page__header__top {
+            background: rgba(15,12,19,.54);
+            height: 87px;
+        }
 
     .page__nav {
         margin: 20px 0 0;

@@ -1,6 +1,20 @@
 .logo {
-    display: block;
-    width: 208px;
-    height: 72px;
-    background: url(../images/sprite.png) no-repeat 0 0;
+
 }
+
+    .logo__icon {
+        display: inline-block;
+        vertical-align: top;
+        width: 104px;
+        height: 50px;
+        background: url(../images/logo_icon.png) no-repeat 0 0;
+    }
+
+    .logo__text {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 15px;
+        width: 250px;
+        height: 49px;
+        background: url(../images/logo_text.png) no-repeat 0 0;
+    }
