@@ -1,0 +1,18 @@
+.award-item {
+    text-align: center;
+}
+
+    .award-item__image {
+
+    }
+
+        .award-item__image__file {
+            width: 123px;
+            height: 163px;
+        }
+
+    .award-item__text {
+        font-size: 13px;
+        line-height: 18px;
+        color: #555;
+    }

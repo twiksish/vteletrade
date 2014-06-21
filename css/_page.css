@@ -21,6 +21,10 @@
         margin: 112px 0 0;
     }
 
+    .page__awards {
+        background: #dfeeff;
+    }
+
     .page__footer {
         margin: 20px 0 0;
     }
