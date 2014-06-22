@@ -1,5 +1,8 @@
 .features {
     position: relative;
+    background: url(../images/feature_image.png) no-repeat right bottom;
+    padding-bottom: 112px;
+    margin-left: 9px;
 }
 
     .features__title {
@@ -7,18 +10,17 @@
         color: #555;
         font-family: 'TeXGyreAdventor Bold' sans-serif;
         font-size: 30px;
+        font-weight: bold;
         line-height: 36px;
     }
 
-        .features__title_blue {
-            /*display: inline;*/
-            color: #007abe;
-        }
+    .features__title__blue {
+        color: #007abe;
+    }
 
-        .features__title_pink {
-            /*display: inline;*/
-            color: #cf1656;
-        }
+    .features__title__pink {
+        color: #cf1656;
+    }
 
     .features__list {
         font-size: 24px;
@@ -26,11 +28,11 @@
         color: #555;
         margin-top: 29px;
         margin-left: 9px;
+        width: 700px;
     }
 
         .features__list__item {
             margin-top: 10px;
-            /*text-indent: 15px;*/
         }
 
         .features__list__item:first-child {
@@ -43,12 +45,3 @@
             font-size: 28px;
             margin-right: 11px;
         }
-
-    .features__image {
-        background: url(../images/feature_image.png);
-        width: 314px;
-        height: 346px;
-        position: absolute;
-        top: 50px;
-        right: 0;
-    }

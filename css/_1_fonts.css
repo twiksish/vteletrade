@@ -1,15 +1,5 @@
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/59ZRklaO5bWGqF5A9baEEbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-}
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzILVesmXbmCMjcFi0Yy5Rpk.woff) format('woff');
-}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=vietnamese);
+
 @font-face {
     font-family: 'TeXGyreAdventor Bold';
     font-style: normal;

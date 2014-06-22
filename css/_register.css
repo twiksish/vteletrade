@@ -2,7 +2,7 @@
     font-size: 14px;
     line-height: 20px;
     color: #fff;
-    padding: 27px 0 27px 0;
+    padding: 27px 0;
     text-align: center;
 }
 
@@ -11,18 +11,21 @@
         display: inline-block;
         vertical-align: top;
         margin-top: 7px;
+        width: 316px;
     }
 
     .register__center {
         display: inline-block;
         vertical-align: top;
-        margin: 0 30px;
+        margin: 0 10px;
+        width: 285px;
     }
 
     .register__right {
         display: inline-block;
         vertical-align: top;
         margin-top: 7px;
+        width: 290px;
     }
 
     .register__separator {

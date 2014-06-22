@@ -2,25 +2,26 @@
     position: relative;
 }
 
-.jcarousel {
-    overflow: hidden;
-}
-
-    .jcarousel__list {
-        width: 10000px;
+    .jcarousel {
+        overflow: hidden;
         position: relative;
     }
 
-    .jcarousel__list__item {
-        display: inline-block;
-        vertical-align: top;
-        width: 150px;
-        margin-right: 10px;
-    }
+        .jcarousel__list {
+            width: 10000px;
+            position: relative;
+        }
 
-    .jcarousel__list__item:first-child {
-        margin-right: 0;
-    }
+        .jcarousel__list__item {
+            display: inline-block;
+            vertical-align: top;
+            width: 150px;
+            margin-right: 12px;
+        }
+
+        .jcarousel__list__item:first-child {
+            margin-right: 0;
+        }
 
     .jcarousel__arrow-left {
         background-image: url(../images/arrow_left.png);

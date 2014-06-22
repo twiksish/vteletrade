@@ -1,28 +1,21 @@
 <!DOCTYPE html>
-<html class="no-js" lang="ru">
+<html lang="vi">
     <head>
 
         <meta charset="utf-8">
 
         <meta name="viewport" content="width=device-width">
-        <!-- Uncomment in case of responsive design and delete tag above
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        -->
-        <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 
         <link rel="stylesheet" href="css/style.css">
-        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 
-        <title></title>
+        <title>TeleTrade</title>
 
     </head>
 
     <body>
         <!--[if lt IE 9]>
             <div class="ancients">
-                Вы используете устаревший браузер.
-                Для корректного функционирования этого сайта и большинства других
-                Вам необходимо <a href="http://browsehappy.com/?locale=ru_RU">обновить ваш браузер</a>.
+                You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
             </div>
         <![endif]-->
 
@@ -35,26 +28,26 @@
                 <div class="page__header__top">
                     <div class="region">
                         <header class="header">
-
                             <div class="header__logo">
                                 <div class="logo">
-                                   <div class="logo__icon"></div><!--
+                                    <div class="logo__icon"></div><!--
                                 --><div class="logo__text"></div>
                                 </div>
                             </div>
-
-                            <div class="header__main">
-                                <div class="header__main__left">Chìa khóa LÀM GIÀU - ĐẦU TƯ trên thị trường tài chính quốc tế</div><!--
-                             --><div class="header__main__right">
-                                    <iframe width="473" height="291" src="//www.youtube.com/embed/Th33uX3YHqI" frameborder="0" allowfullscreen></iframe>
-                                </div>
-                            </div>
-
                         </header>
-
                     </div>
-
                 </div>
+                <div class="page__header__content">
+                    <div class="region">
+                        <div class="header-main">
+                            <div class="header-main__left">Chìa khóa LÀM GIÀU - ĐẦU TƯ trên thị trường tài chính quốc tế</div><!--
+                         --><div class="header-main__right">
+                                <iframe width="473" height="291" src="//www.youtube.com/embed/Th33uX3YHqI" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div><!-- /page__header -->
 
 
@@ -62,15 +55,14 @@
                 <div class="region">
 
                     <div class="features">
-                        <div class="features__title">Đã đến lúc <div class="features__title features__title_blue">kiểm soát tương lai tài chính</div> của bạn để có được<br> một <div class="features__title features__title_pink">cuộc sống thành công, giàu có và hạnh phúc</div></div>
+                        <h2 class="features__title">Đã đến lúc <mark class="features__title__blue">kiểm soát tương lai tài chính</mark> của bạn để có được<br> một <mark class="features__title features__title__pink">cuộc sống thành công, giàu có và hạnh phúc</mark></h2>
                         <ul class="features__list">
-                            <li class="features__list__item"><strong>Lợi nhuận</strong> cực cao. </li>
+                            <li class="features__list__item"><strong>Lợi nhuận</strong> cực cao.</li>
                             <li class="features__list__item">Hỗ trợ khách hàng 24/7</li>
                             <li class="features__list__item"><strong>65%</strong> Người tham gia có <strong>lợi nhuận 250%</strong> trong năm 2013</li>
                             <li class="features__list__item">Giao dịch An toàn và tiện lợi. </li>
                             <li class="features__list__item">Khoá Đào tạo chuyên nghiệp và Miễn Phí</li>
                         </ul>
-                        <div class="features__image"></div>
                     </div>
 
                 </div>
@@ -83,7 +75,7 @@
                         <hr class="register__separator"><!--
                      --><div class="register__left">Chương trình training mới nhất bắt đầu vào<br> thứ 2 ngày 09/06/2014 từ 09:00 - 11:00</div><!--
                      --><div class="register__center">
-                            <button class="button">ĐĂNG KÝ NGAY</button>
+                            <a class="button" href="#">ĐĂNG KÝ NGAY</a>
                      </div><!--
                      --><div class="register__right">Đăng ký ngay hôm nay để trở thành một<br> trong số 1% nắm giữ 90% của cải thể giới.</div><!--
                      --><hr class="register__separator">
@@ -197,11 +189,9 @@
                                             </div>
                                         </li>
                                     </ul>
-
-                                    <a href="#" class="jcarousel__arrow-left"></a>
-                                    <a href="#" class="jcarousel__arrow-right"></a>
-
                                 </div>
+                                <a href="#" class="jcarousel__arrow-left"></a>
+                                <a href="#" class="jcarousel__arrow-right"></a>
                             </div>
                         </div>
                     </div>
@@ -226,13 +216,24 @@
 
 
 
-
         <!-- Scripts -->
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/jquery.jcarousel.min.js"></script>
-        <script src="js/jquery.jcarousel.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script>
+            $(document).on('ready', function(){
+                $('.jcarousel').jcarousel({
+                    'wrap': 'circular'
+                });
+
+                $('.jcarousel__arrow-left').jcarouselControl({
+                    target: '-=1'
+                });
+
+                $('.jcarousel__arrow-right').jcarouselControl({
+                    target: '+=1'
+                });
+            });
+        </script>
         <!--/Scripts -->
 
 

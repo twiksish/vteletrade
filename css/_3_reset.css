@@ -67,6 +67,10 @@ label {
     cursor: pointer;
 }
 
+mark {
+    background: none;
+}
+
 ::-webkit-input-placeholder { font-style: normal; }
 ::-moz-placeholder { font-style: normal; }
 :-ms-input-placeholder { font-style: normal; }

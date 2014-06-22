@@ -3,7 +3,6 @@
 }
     .page__header {
         background: #263b8c url(../images/header_background.jpg) no-repeat center top;
-        height: 478px;
     }
 
         .page__header__top {
@@ -11,18 +10,22 @@
             height: 87px;
         }
 
+        .page__header__content {
+            margin-top: 52px;
+        }
+
     .page__features {
         background: #fff;
-        margin: 32px 0 0 20px;
+        margin-top: 32px;
     }
 
     .page__register {
         background: #4280c7;
-        margin: 112px 0 0;
     }
 
     .page__awards {
         background: #dfeeff;
+        padding: 46px 0 27px;
     }
 
     .page__footer {

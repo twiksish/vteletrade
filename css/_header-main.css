@@ -1,0 +1,23 @@
+.header-main {
+    height: 339px;
+}
+
+    .header-main__left {
+        display: inline-block;
+        vertical-align: top;
+        width: 436px;
+        font-family: 'TeXGyreAdventor Bold' sans-serif;
+        font-size: 40px;
+        line-height: 51px;
+        font-weight: bold;
+        color: #fff;
+        margin-top: 46px;
+        margin-left: 9px;
+    }
+
+    .header-main__right {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 38px;
+        width: 473px;
+    }
